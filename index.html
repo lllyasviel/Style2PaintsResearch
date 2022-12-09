@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style2Paints Research (S2PR)</title>
+
+    <style>
+        .box {
+            border-radius: 10px;
+            margin: 0 auto;
+            padding-left: 60px;
+            padding-right: 60px;
+            width: 760px;
+            background-color: white;
+            box-shadow: black 0px 0px 32px;
+        }
+
+        .bgb {
+            background-color: rgb(240, 240, 240);
+            padding-left: 60px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            margin-left: -45pt;
+            margin-right: -45pt;
+            font-weight: bold;
+        }
+
+        .item {
+            margin-top: 20px;
+        }
+
+        .left-img {
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            width: 35%;
+            margin-right: 4%;
+        }
+
+        .right-text {
+            display: inline-block;
+            width: 60%;
+        }
+
+        .dot {
+            height: 14px;
+            width: 14px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:rgb(48, 48, 48);">
+    </br></br></br>
+    <div class="box">
+        <div class="block">
+            <img src="imgs/logo.png"
+                style="height: 100px; margin-top: 80px;margin-bottom: 40px; margin-left: 45px;" /></br>
+            Style2Paints Research* (S2PR) is a non-commercial research group sharing the interest in artistic creation
+            techniques. The current S2PR group consists of 4 researchers, 4 engineers, and 22 artists. The main products
+            of S2PR involves tools in line drawing processing, color manipulation, illumination editing, shadow drawing,
+            <i>etc</i>. S2PR has made presentations in scientific conferences like ACM SIGGRAPH, IEEE CVPR, and
+            commercial exhibitions like Anime EXPO.
+            </br></br>
+            <strong>Goals:</strong></br>
+            <ul style="padding-left: 24px;">
+                <li style="padding-bottom: 10px;"><i>Interactive Research:</i> </br> To study how researchers can learn
+                    the needs of artists and how artists can learn the needs of researchers.</li>
+                <li style="padding-bottom: 10px;"><i>Real Demand:</i> </br>To investigate what artists actually need and
+                    what artists do not really need.</li>
+                <li style="padding-bottom: 10px;"><i>Constructive Feedback:</i> </br>To develop practical tools for
+                    artists and investigate the feedbacks of artists to further improve such tools.</li>
+            </ul>
+            <strong>Principles:</strong></br>
+            <ul style="padding-left: 24px;">
+                <li style="padding-bottom: 10px;"><i>Unconditional Trust:</i> </br>We trust that users can work together
+                    with technology to achieve the art they want, in other words, that user commands and instructions
+                    are positive and constructive.</li>
+                <li style="padding-bottom: 10px;"><i>Conditional Methodology:</i> </br>Depending on different problems,
+                    both machine learning techniques and non-machine-learning algorithms are acceptable.</li>
+                <li style="padding-bottom: 10px;"><i>Divide and Conquer:</i></br>We break down complex and difficult
+                    problems into easier sub-problems and solve them one by one, in a divide-and-conquer way.</li>
+            </ul>
+            * Style2Paints Research was founded by <a href="https://github.com/lllyasviel">Lvmin Zhang</a> in 2018 - <a
+                href="mailto: lvminzhang@acm.org">Join Us</a> /
+            <a href="https://twitter.com/lvminzhang">Twitter</a> / <a
+                href="https://github.com/lllyasviel">Github</a>
+        </div>
+
+        <div class="tex">
+            <div class="bgb">News</div>
+            <p>
+                2022.08.15 - Lvmin's article is accepted to SIGGRAPH ASIA 2022, journal track.</br>
+                2022.06.15 - See some recent announcements of Style2Paints (Project SEPA) <a
+                    href="https://lllyasviel.github.io/Style2PaintsResearch/0615">here</a>.</br>
+                2022.01.09 - See some recent announcements of Style2Paints (Project SEPA) <a
+                    href="https://lllyasviel.github.io/Style2PaintsResearch/0109">here</a>.</br>
+                2021.06.09 - An article on shadow drawing is accepted to ICCV 2021 as Oral.</br>
+                2021.06.01 - The Project SEPA is decided to be released before 2022.</br>
+                2021.03.22 - The next version of Style2Paints will be called Project SEPA. See also the <a
+                    href="https://twitter.com/IlIIlIIIllIllII/status/1374017112298057732">twitter post</a>.
+            </p>
+        </div>
+
+        <div class="tex">
+            <div class="bgb">Product</div>
+            <div class="item">
+                <img class="left-img" src="imgs/s2p.jpg" />
+                <div class="right-text">
+                    <a href="https://github.com/lllyasviel/style2paints"><b>Style2Paints</b></a>
+                    <a href="https://github.com/lllyasviel/style2paints"><img
+                            src="https://img.shields.io/github/stars/lllyasviel/style2paints.svg?label=Stars&style=social"
+                            style="margin-left: 5px;" /></a>
+                    <a href="https://github.com/lllyasviel/style2paints"><img
+                            src="https://img.shields.io/github/watchers/lllyasviel/style2paints.svg?label=watch&style=social" /></a>
+                    <a href="https://github.com/lllyasviel/style2paints"><img
+                            src="https://img.shields.io/github/forks/lllyasviel/style2paints.svg?label=fork&style=social" /></a>
+                    </br>
+                    <small>Interactivity, Creativity, and Possibility!</small>
+                    </br>
+                    Style2Paints is a line drawing coloring software. This software is somewhat popular
+                    (>14k github stars) mainly because (1) it is easy to install and artists do not need to manage
+                    environments like CUDA, (2) the result quality is good, and (3) the outputs are layered and friendly
+                    to many painting workflows.
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="imgs/pl.jpg" />
+                <div class="right-text">
+                    <a href="https://github.com/lllyasviel/PaintingLight"><b>PaintingLight</b></a>
+                    <a href="https://github.com/lllyasviel/PaintingLight"><img
+                            src="https://img.shields.io/github/stars/lllyasviel/PaintingLight.svg?label=Stars&style=social"
+                            style="margin-left: 5px;" /></a>
+                    <a href="https://github.com/lllyasviel/PaintingLight"><img
+                            src="https://img.shields.io/github/watchers/lllyasviel/PaintingLight.svg?label=watch&style=social" /></a>
+                    <a href="https://github.com/lllyasviel/PaintingLight"><img
+                            src="https://img.shields.io/github/forks/lllyasviel/PaintingLight.svg?label=fork&style=social" /></a>
+                    </br>
+                    <small>Physical illumination and painted illumination are different!</small>
+                    </br>
+                    Painting light is a project conducted to investigate how artists add illumination and lighting
+                    effects to their artworks, and how we can simulate this procedure to assist this workflow.
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="imgs/dr.jpg" />
+                <div class="right-text">
+                    <a href="https://github.com/lllyasviel/DanbooRegion"><b>DanbooRegion</b></a>
+                    <a href="https://github.com/lllyasviel/DanbooRegion"><img
+                            src="https://img.shields.io/github/stars/lllyasviel/DanbooRegion.svg?label=Stars&style=social"
+                            style="margin-left: 5px;" /></a>
+                    <a href="https://github.com/lllyasviel/DanbooRegion"><img
+                            src="https://img.shields.io/github/watchers/lllyasviel/DanbooRegion.svg?label=watch&style=social" /></a>
+                    <a href="https://github.com/lllyasviel/DanbooRegion"><img
+                            src="https://img.shields.io/github/forks/lllyasviel/DanbooRegion.svg?label=fork&style=social" /></a>
+                    </br>
+                    <small>An region segmentation dataset for illustrations and artworks!</small>
+                    </br>
+                    Lots of applications in the field of creative researches use regions to process images but the
+                    region data for artworks and illustrations are rare. Style2Paints Research presents this dataset in
+                    the hope that several related tasks can be made a bit easier.
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tex">
+            <a name="research">
+                <div class="bgb">Member</div>
+            </a>
+            <p>
+                <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                    Zhang</a>
+                <span class="dot" style="background-color:darkgreen"></span>Jinyue Jiang
+                <span class="dot" style="background-color:sienna"></span><a
+                    href="https://moeka.me/research.html">Chengze Li</a>
+                <span class="dot" style="background-color:tomato"></span><a
+                    href="https://github.com/SystemErrorWang">Xinrui Wang</a>
+            </p>
+        </div>
+
+        <div class="tex">
+            <div class="bgb">Research</div>
+            <div class="item">
+                <img class="left-img" src="ins/sa22.png" />
+                <div class="right-text">
+                    <b>Sprite-from-Sprite: Cartoon Animation Decomposition with Self-supervised Sprite Estimation</b>,
+                    </br>in ACM Transactions on Graphics (SIGGRAPH ASIA 2022, Journal Track).
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, Tien-Tsin Wong, and
+                    Yuxin Liu.
+                    </br>
+                    <small>The "sprites" in real-world cartoons are unique: artists may draw arbitrary sprite animations
+                        for expressiveness, or alternatively, artists may also reduce their workload by tweening and
+                        adjusting contents. Can we use these properties to do a "reverse engineering" to get the
+                        original sprites in digital animation?
+                        <a href="https://lllyasviel.github.io/GitPageToonDecompose/">Know more
+                            ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/iccv2021.png" />
+                <div class="right-text">
+                    <b>SmartShadow: Artistic Shadow Drawing Tool for Line Drawings</b>, in IEEE International Conference
+                    on Computer Vision (ICCV) 2021 <strong>Oral</strong>
+                    (3%).
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <span class="dot" style="background-color:darkgreen"></span>Jinyue Jiang, Yi Ji, and
+                    Chunping Liu.
+                    </br>
+                    <small>A flexible shadow drawing tool for line drawings, supporting interactive editing of
+                        cartoon-style shadows.
+                        <a href="https://lllyasviel.github.io/Style2PaintsResearch/iccv2021/index.html">Know more
+                            ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/sig21.png" />
+                <div class="right-text">
+                    <b>Screenshots from Screen Photography</b>, </br> in SIGGRAPH '21: ACM SIGGRAPH 2021 Posters.
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a> and
+                    <span class="dot" style="background-color:sienna"></span><a
+                        href="https://moeka.me/research.html">Chengze Li</a>.
+                    </br>
+                    <small>Screenshot is a frequently used tool in our daily life, while the screenshot capturing
+                        techniques are not much discussed in computer graphics and image processing researches. Might we
+                        be able to achieve a computer graphic solution to directly convert a screen photography to a
+                        screenshot, which looks like as if it was taken using software?
+                        <a href="https://dl.acm.org/doi/10.1145/3450618.3469136">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/sig20.png" />
+                <div class="right-text">
+                    <b>Generating Digital Painting Lighting Effects via RGB-space Geometry</b>,
+                    </br>
+                    in ACM Transactions on Graphics (Presented in SIGGRAPH 2020). <i>This paper does not use machine
+                        learning!</i>
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <a href="https://esslab.jp/en/publications/">Edgar Simo-Serra</a>, Yi Ji, and
+                    Chunping Liu.
+                    </br>
+                    <small>A project conducted to investigate how artists apply lighting effects to their artworks, and
+                        how we can assist such workflow. The main idea is to observe the real painting behaviors and
+                        procedures of artists so that we can model the illumination in their artworks.
+                        <a href="https://lllyasviel.github.io/PaintingLight/">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/cvpr2021a.png" />
+                <div class="right-text">
+                    <b>Generating Manga from Illustrations via Mimicking Manga Workflow</b>,
+                    in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021.
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <span class="dot" style="background-color:tomato"></span><a
+                        href="https://github.com/SystemErrorWang">Xinrui Wang</a>, Qingnan Fan, Yi Ji, and Chunping Liu.
+                    </br>
+                    <small>We propose a data-driven framework to convert a digital illustration into three corresponding
+                        components: manga line drawing, regular screentone, and irregular screen texture. These
+                        components can be directly composed into manga images and can be further retouched for more
+                        plentiful manga creations.
+                        <a href="https://lllyasviel.github.io/MangaFilter/">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/cvpr2021b.png" />
+                <div class="right-text">
+                    <b>User-Guided Line Art Flat Filling with Split Filling Mechanism</b>,
+                    in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021.
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <span class="dot" style="background-color:sienna"></span><a
+                        href="https://moeka.me/research.html">Chengze Li</a>, <a
+                        href="https://esslab.jp/en/publications/">Edgar Simo-Serra</a>, Yi Ji, <a
+                        href="http://www.cse.cuhk.edu.hk/~ttwong/publication-favorite.html">Tien-tsin Wong</a>, and
+                    Chunping Liu.
+                    </br>
+                    <small>We present a deep learning framework for user-guided line art flat filling that explicitly
+                        controls the "influence areas" of the user colour scribbles, i.e., the areas where the user
+                        scribbles should propagate and influence, to manipulate the colours of image details and avoid
+                        colour contamination between scribbles, and simultaneously, leverages data-driven colour
+                        generation to facilitate content creation. <a
+                            href="https://lllyasviel.github.io/SplitFilling/">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/eccv2.png" />
+                <div class="right-text">
+                    <b>DanbooRegion: An Illustration Region Dataset</b>,
+                    </br>
+                    in European Conference on Computer Vision (ECCV) 2020.
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, Yi Ji, and Chunping Liu
+                    </br>
+                    <small>Region is a fundamental element of various cartoon animation techniques and artistic painting
+                        applications. Achieving satisfactory region is essential to the success of these techniques. To
+                        assist diversiform region-based cartoon applications, we use semi-automatic method to annotate
+                        regions for in-the-wild artworks. <a href="https://lllyasviel.github.io/DanbooRegion/">Know more
+                            ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/eccv1.png" />
+                <div class="right-text">
+                    <b>Erasing Appearance Preservation in Optimization-based Smoothing</b>,
+                    in European Conference on Computer Vision (ECCV) 2020 <strong>Spotlight</strong> (5%).
+                    </br>
+                    <i>This paper does not use machine learning!</i>
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <span class="dot" style="background-color:sienna"></span><a
+                        href="https://moeka.me/research.html">Chengze Li</a>, Yi Ji, Chunping Liu, and <a
+                        href="http://www.cse.cuhk.edu.hk/~ttwong/publication-favorite.html">Tien-tsin Wong</a>
+                    </br>
+                    <small>Optimization-based smoothing can be formulated as a smoothing energy and an appearance
+                        preservation energy. We show that partially "erasing" the energy facilitate the smoothing.
+                        <a href="https://lllyasviel.github.io/AppearanceEraser/">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/cvpr2020.png" />
+                <div class="right-text">
+                    <b>Learning to Cartoonize Using White-box Cartoon Representations</b>,
+                    </br>
+                    in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.
+                    </br>
+                    <span class="dot" style="background-color:tomato"></span><a
+                        href="https://github.com/SystemErrorWang">Xinrui Wang</a> and Jinze Yu
+                    </br>
+                    <small>By observing the cartoon painting behavior and consulting artists, we propose to separately
+                        identify three white-box representations of cartoon images. <a
+                            href="https://systemerrorwang.github.io/White-box-Cartoonization/">Know more ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/sig18.png" />
+                <div class="right-text">
+                    <b>Two-stage Sketch Colorization</b>,
+                    </br>
+                    in ACM Transactions on Graphics (SIGGRAPH Asia 2018).
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, <span class="dot" style="background-color:sienna"></span><a
+                        href="https://moeka.me/research.html">Chengze Li</a>, <a
+                        href="http://www.cse.cuhk.edu.hk/~ttwong/publication-favorite.html">Tien-tsin Wong</a>, Yi Ji,
+                    and Chunping Liu
+                    </br>
+                    <small>With the advances of neural networks, automatic or semi-automatic colorization of sketch
+                        become feasible and practical. We present a state-of-the-art semi-automatic (as well as
+                        automatic) colorization from line art. Our improvement is accounted by a divide-and-conquer
+                        scheme. We divide this complex colorization task into two simplier and goal-clearer subtasks,
+                        drafting and refinement. <a
+                            href="https://www.cse.cuhk.edu.hk/~ttwong/papers/colorize/colorize.html">Know more
+                            ...</a></small>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="left-img" src="ins/acpr.png" />
+                <div class="right-text">
+                    <b>Style Transfer for Anime Sketches with Enhanced Residual U-net and Auxiliary Classifier GAN</b>,
+                    in Asian Conference on Pattern Recognition (ACPR) 2017.
+                    </br>
+                    <strong>Spotlight</strong> (5%) <i>- The most cited paper of ACPR 2017 - </i>
+                    </br>
+                    <span class="dot" style="background-color:navy"></span><a href="https://github.com/lllyasviel">Lvmin
+                        Zhang</a>, Yi Ji, and Xin Lin
+                    </br>
+                    <small>We integrate U-net to apply exemplar style to the grayscale
+                        sketch with auxiliary classifier generative adversarial network. The whole process is automatic
+                        and fast, and the results are creditable in the quality of artistic style as well as
+                        colorization.
+                        <a href="https://arxiv.org/abs/1706.03319">Know more ...</a></small>
+                </div>
+            </div>
+
+        </div>
+        <div class="tex">
+            <div class="bgb">Talk</div>
+            <div class="item">
+                <img class="left-img" src="imgs/ax.jpg" />
+                <div class="right-text">
+                    <a href="https://www.anime-expo.org/"><b>Anime Expo 2018</b></a> (Industrial Talk) <img
+                        src="imgs/ax.svg" style="width: 24px; border-radius: 5px;" />
+                    </br>
+                    Anime Expo is the largest anime exhibition in United States and one of the two largest anime
+                    exhibitions in the world (another one is Japan Comic Market). S2PR presented an industrial talk on
+                    "deep learning for artists" in Anime Expo 2018.
+                </div>
+            </div>
+        </div>
+
+        <div class="tex">
+            <div class="bgb">Contact Us</div>
+            <ul style="padding-left: 24px;">
+                <li style="padding-bottom: 10px;">To contact Style2Paints Research for academic/commercial
+                    collaboration, please send e-mail to lvminzhang AT acm.org or lvminzhang AT siggraph.org with
+                    "Style2Paints" in your e-mail title.</li>
+                <li style="padding-bottom: 10px;">Feel free to open issues in any of our <a
+                        href="https://github.com/lllyasviel">Github</a> repos or reply to our <a
+                        href="https://twitter.com/IlIIlIIIllIllII">Twitter</a> posts.</li>
+                <li style="padding-bottom: 10px;">If you use QQ, we invite you to join our QQ group 816096787.</li>
+            </ul>
+        </div>
+        </br></br>
+        <p style="text-align:center;"><a href="https://www.easycounter.com/">
+                <img src="https://www.easycounter.com/counter.php?lvmin" alt="Free Web Counter"></a>
+        </p></br>
+    </div>
+    </br></br></br>
+</body>

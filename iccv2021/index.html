@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SmartShadow: Artistic Shadow Drawing Tool for Line Drawings</title>
+	<link rel="stylesheet" type="text/css" href="./index_files/pixl-bk.css">
+	<link rel="stylesheet" type="text/css" href="./index_files/pixl-fonts.css">
+</head>
+
+<body>
+
+<div class="crumb">
+	<a href="https://github.com/lllyasviel">Style2Paints Research</a> →
+	[Zhang et al. 2021]
+	</span>
+</div>
+
+
+<div class="content">
+<div class="paperheader">
+  <div class="papertitle"> SmartShadow: Artistic Shadow Drawing Tool for Line Drawings </div>
+  <br>
+  <div class="pubinfo"> IEEE International Conference on Computer Vision (ICCV) 2021 Oral </div>
+  <br>
+  <div class="authors"> <a href="https://github.com/lllyasviel">Lvmin Zhang</a>, Jinyue Jiang, Yi Ji, and Chunping Liu </div>
+</div>
+
+<div class="paperimg"><img src="./teaser.jpg"></div>
+<div class="longcaption">From left to right: the input line drawing and user scribbles for our approach, the result of our approach, and the result from a real artist using Adobe PhotoShop. The user spends 2 minutes 13 seconds to obtain the middle result using our tools, while the artist spends 26 minutes 17 seconds to obtain the right result using Adobe PhotoShop. </div>
+<div class="header">Abstract</div>
+<p>
+</p><div class="abstract">
+  SmartShadow is a deep learning application for digital painting artists to draw shadows on line drawings, with three proposed tools. (1) Shadow brush: artists can draw scribbles to coarsely indicate the areas inside or outside their wanted shadows, and the application will generate the shadows in real-time. (2) Shadow boundary brush: this brush can precisely control the boundary of any specific shadow. (3) Global shadow generator: this tool can estimate the global shadow direction from input brush scribbles, and then consistently propagate local shadows to the entire image. These three tools can not only speed up the shadow drawing process (by 3.1× as experiments validate), but also allow for the flexibility to achieve various shadow effects and facilitate richer artistic creations. To this end, we train Convolutional Neural Networks (CNNs) with a collected large-scale dataset of both real and synthesized data, and especially, we collect 1670 shadow samples drawn by real artists. Both qualitative analysis and user study show that our approach can generate high-quality shadows that are practically usable in the daily works of digital painting artists. We present 30 additional results and 15 visual comparisons in the supplementary materiel.
+</div>
+<div class="header">Files</div>
+<ul>
+<li> <a href="./shadow.pdf">Paper</a> (PDF file, 17,101 KB) </li>
+</ul>
+<div class="header">See Also</div>
+<ul>
+
+<li> <a href="./shadow_sup.pdf">Supplementary Document</a> - (PDF file, 36,721 KB) A document of additional results and engineering details.</li>
+
+<li> This project will become a part of the incoming <a href="https://twitter.com/IlIIlIIIllIllII/status/1392143022221975554">SEPA studio</a>. </li>
+
+</ul>
+<div class="header">Citation</div>
+<p>
+Lvmin Zhang, Jinyue Jiang, Yi Ji, and Chunping Liu.<br>
+"SmartShadow: Artistic Shadow Drawing Tool for Line Drawings."<br>
+<i>IEEE International Conference on Computer Vision (ICCV)</i>, June 2021.
+</p><div class="header">BibTeX</div>
+<p>
+</p><pre>@InProceedings{Shadow2021zhang,
+    author={Lvmin Zhang and Jinyue Jiang and Yi Ji and Chunping Liu}, 
+    booktitle={IEEE International Conference on Computer Vision (ICCV)}, 
+    title={SmartShadow: Artistic Shadow Drawing Tool for Line Drawings}, 
+    year={2021}, 
+    }
+</pre>
+</div>
+
+
+</body></html>
